@@ -1,0 +1,43 @@
+body{
+    margin: 0%;
+    font-family: 'Rubik', sans-serif;
+}
+h2{
+    font-size: 35px;
+}
+h1{
+    font-size: 40px;
+    color:orangered;
+}
+.half-side{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+#bio{
+    align-content: center;
+}
+.hire-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, cyan,blue);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.download-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, cyan,blue);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+section{
+    height: 400px;
+    width: 100%;
+    padding-bottom: 100px;
+}
