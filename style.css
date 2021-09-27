@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     font-family: 'Rubik', sans-serif;
+    color:rgb(0, 0, 0);
 }
 h2{
     font-size: 35px;
@@ -12,11 +13,33 @@ h1{
 .half-side{
     width: 40%;
     float: left;
-    margin-left: 2%;
-    padding-left: 2%;
+    margin-left: 210px;
+    padding-left: 2% 0% 2% 2%;
+    margin-top: 350px;
 }
-#bio{
-    align-content: center;
+.half-sidebio{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2% 0% 2% 2%;
+    margin-top: 240px;
+}
+#half-pic{
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#half-picpeter{
+    width: 30%;
+    float: left;
+    margin-top: 80px;
+}
+#half-picpeter img{
+    margin-top: 20px;
+}
+.half-side img{
+    width: 100%;
 }
 .hire-button{
     text-decoration: none;
@@ -26,6 +49,7 @@ h1{
     border-radius: 10px;
     font-size: 20px;
     font-weight: 700;
+    
 }
 .download-button{
     text-decoration: none;
@@ -37,7 +61,82 @@ h1{
     font-weight: 700;
 }
 section{
-    height: 400px;
+    height: 870px;
     width: 100%;
-    padding-bottom: 100px;
+    
+}
+.first-bar{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+.middle-bar{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.work-bar{
+    margin-top: 80px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#latest{
+    text-align: center;
+    color: black;
+    margin-bottom: 200px;
+}
+.work img{
+    width: 26%;
+    float: left;
+    margin-left: 2%;
+}
+.work{
+    margin-left: 220px;
+}
+/* .client{
+    width: 100%;
+    height: 500px;
+    margin-top: 150px;
+    
+} */
+.client{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 100px;
+}
+#what{
+    text-align: center;
+    color: black;
+}
+.client-say{
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+#h6{
+    margin-top: -10px;
+}
+.massage-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,coral,crimson );
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 700;
+    width: 32%;
+    text-align: center;
+    margin-left:620px ;
+    margin-top: 100px;
+}
+#leave{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.footer{
+    text-align: center;
+    margin-top: 80px;
 }
